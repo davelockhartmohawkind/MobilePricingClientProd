@@ -51,7 +51,7 @@ $(document).ready(function () {
         }
         else
         {
-            //setTimeout(clearInterval(myInterval), 500);
+            setTimeout(clearInterval(myInterval), 500);
             $('#loadmsg').html('Internet Destination Is Not Available.');
             $("#try_again").css('display', 'block');
         }
@@ -96,7 +96,7 @@ $(document).ready(function () {
             if (NetworkUpCounter > 1) {
                 $('#loadmsg').html('Network Ready.');
                 // clearInterval(myInterval);
-                urlExists('http://mobilepricing.mohawkind.com');
+                urlExists('https://mobilepricing.mohawkind.com');
 
             }
         }
