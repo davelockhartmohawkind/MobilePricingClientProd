@@ -22,10 +22,10 @@
     <plugins>
       <!--<plugin name="Notification" value="CDVNotification" />-->
       <!--<plugin name="notification" value="org.apache.cordova.dialogs.Notification"/>
-        <plugin name="device" value="org.apache.cordova.device" />
-      <plugin name="app" value="org.apache.cordova.App"/>
-      <plugin name="Capture" value="org.apache.cordova.Capture"/>
-      <plugin name="NetworkStatus" value="org.apache.cordova.NetworkManager"/>-->
+          <plugin name="device" value="org.apache.cordova.device" />
+          <plugin name="app" value="org.apache.cordova.App"/>
+          <plugin name="Capture" value="org.apache.cordova.Capture"/>
+          <plugin name="NetworkStatus" value="org.apache.cordova.NetworkManager"/>-->
        <feature name="Notification">
         <param name="ios-package" value="CDVNotification" />
         </feature>
